@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "TF_ENABLE_ONEDNN_OPTS": "0",
+                "TF_CPP_MIN_LOG_LEVEL": "2"
+            }
+        }
+    ]
+}
